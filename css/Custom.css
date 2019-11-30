@@ -1,0 +1,146 @@
+.dropdown {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+    transition: all 0.5s ease;
+}
+
+ul li:hover>ul,
+ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+.TituloPelicula {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.movie-Card {
+    border: 2px groove rgb(132, 213, 250);
+    background-color: rgb(212, 212, 212);
+    display: inline-block;
+}
+
+.movie-Card .TituloPelicula h4 {
+    color: #469ee6;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 11px;
+}
+
+.movie-Card div img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 2em;
+}
+
+.Movie-Data {
+    width: 50%;
+}
+
+.Movie-Data td h5 {
+    font-weight: lighter;
+    text-align: left;
+}
+
+.Movie-Data .Data {
+    font-weight: bold;
+    text-align: center;
+}
+
+.Movie-Data tr {
+    border-bottom: 2px groove rgb(0, 174, 255);
+}
+
+.Movie-Info .Movie-Data {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Movie-Info .title {
+    font-weight: bold;
+}
+
+.x_content .title {
+    font-weight: bold;
+}
+
+.page-title .row {
+    background-color: rgb(238, 238, 238);
+}
+
+.page-title .row .x_content {
+    background-color: rgb(238, 238, 238);
+}
+
+.x_panel {
+    background-color: rgb(255, 255, 255);
+}
+
+.x_panel .clearfix {
+    background-color: rgb(255, 255, 255);
+}
+
+.x_panel .x_title {
+    background-color: rgb(255, 255, 255);
+}
+
+.cont {
+    background-color: rgb(238, 238, 238);
+}
+
+.page-title {
+    background-color: rgb(238, 238, 238);
+}
+
+.col-md-3 {
+    background-color: rgb(238, 238, 238);
+}
+
+.critica img {
+    max-width: 50px;
+}
+
+.critica table {
+    border-left: 2px groove rgb(0, 174, 255);
+    border-bottom: 2px groove rgb(0, 174, 255);
+    background-color: white;
+    min-width: 100%;
+}
+
+.critica .crit-text {
+    padding-left: 4px;
+    width: 75%;
+}
+
+.critica .crit-cal {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    text-align: center;
+}
+
+.Critic-review .fa-star {
+    color: gold;
+}
+
+.Critic-review .fa-thumbs-up {
+    color: rgb(0, 140, 255);
+}
+
+.crit-cal .fa-star {
+    color: gold;
+}
+
+footer {
+    background-color: rgb(238, 238, 238);
+}
+
+.alert-class {
+    border-color: 4px, solid, red;
+    background-color: red;
+}
